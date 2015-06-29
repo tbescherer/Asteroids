@@ -8,5 +8,16 @@
   </head>
 
   <body>
+    <canvas id="game-canvas"></canvas>
+
+    <script>
+      var canvasEl = document.getElementById("game-canvas");
+      // canvasEl.height = Asteroids.Game.DIM_Y;
+      // canvasEl.width = Asteroids.Game.DIM_X;
+      var ctx = canvasEl.getContext('2d');
+      var game = new Asteroids.Game();
+      var view = new Asteroids.gameView(game, ctx);
+      view.start();
+    </script>
   </body>
 </html>
