@@ -8,9 +8,11 @@
     <script src="lib/gameView.js"></script>
     <script src="lib/ship.js"></script>
     <script src="lib/bullet.js"></script>
+    <link rel="stylesheet" type="text/css" href="application.css">
   </head>
 
   <body>
+    <h1>Asteroids, by <a href="www.tbescherer.xyz">Tom Bescherer</a></h1>
     <canvas id="game-canvas"></canvas>
 
     <script>
@@ -22,5 +24,14 @@
       var view = new Asteroids.GameView(game, ctx);
       view.start();
     </script>
+
+    <div id="instructions">
+      <h1>Instructions</h1>
+      <ul>
+      <li>WASD to move</li>
+      <li>Spacebar to shoot</li>
+      <li>X to trigger bomb</li>
+      <li>Destroy all the asteroids!</li>
+    </div>
   </body>
 </html>

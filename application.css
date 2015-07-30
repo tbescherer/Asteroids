@@ -1,0 +1,13 @@
+#game-canvas {
+  border: 2px solid black;
+  height: 600px;
+  float: left;
+}
+
+#instructions {
+  display: block;
+  float: left;
+  height: 600px;
+  padding: 0px 20px;
+  border: 1px solid #ccc;
+}
