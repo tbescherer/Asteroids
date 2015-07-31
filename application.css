@@ -1,11 +1,8 @@
-body {
-  width: 1000px;
-}
-
 #game-canvas {
   display: block;
   border: 2px solid black;
-  width: 80%;
+  height: 542px;
+  width: auto;
   float: left;
 }
 
@@ -15,5 +12,5 @@ body {
   width: 15%;
   height: 542px;
   padding: 0px 20px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
 }
