@@ -3,6 +3,7 @@ body {
 }
 
 #game-canvas {
+  display: block;
   border: 2px solid black;
   width: 80%;
   float: left;
@@ -11,8 +12,8 @@ body {
 #instructions {
   display: block;
   float: left;
-  width: 180px;
-  height: 100%
+  width: 15%;
+  height: 542px;
   padding: 0px 20px;
   border: 1px solid #ccc;
 }
